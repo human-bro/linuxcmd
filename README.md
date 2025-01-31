@@ -5,5 +5,5 @@ These contain all the linux i migth need
 ```
 curl -F "file=@file_name.txt" https://file.io`
 ```
-> here the https://file.io can be any website where you want post the file to 
+> here the https://file.io can be any website where you want post the file to h~o
 
