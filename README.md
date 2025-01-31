@@ -37,4 +37,8 @@ xargs -a a.txt mv -t other
 > here -a to specify the file and -t to specify target directory for the mv command
 
 
+```
+sort -u a.txt | xargs -I{} cp -r {} target_dir
+```
 
+> Here this will copy of the files and folders in a.txt to target_dir
